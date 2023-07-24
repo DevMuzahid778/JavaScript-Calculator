@@ -1,0 +1,34 @@
+.CalculatorBody{
+    background-color: #2abba7	;
+    text-align: center;
+    padding: 15px 3px;
+    border: 3px solid #1f6158;
+    border-radius: 5px;
+}
+#Display{
+    padding: 12px;
+    margin: 5px;
+    width:auto;
+    font-size: 25px;
+}
+
+.ButtonField{
+    margin-top: 10px;
+}
+button{
+    background-color:#1877f2;
+    color: white;
+    font-weight: 700;
+    font-size:20px ;
+    padding: 10px;
+    width: 60px;
+    margin: 3px;
+    border-radius: 8px;
+}
+
+@media screen and (min-width: 577px) and (max-width:1920px) {
+    .CalculatorBody{
+        margin: auto;
+        width: 380px;
+    }  
+}
